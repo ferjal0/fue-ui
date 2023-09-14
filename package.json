@@ -1,7 +1,13 @@
 {
   "name": "fue-ui",
+  "description": "A Vue.js 3.0 UI Toolkit for Web",
+  "author": "ferjal0",
   "version": "0.0.1",
   "private": false,
+  "repository": "https://github.com/ferjal0/fue-ui.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
