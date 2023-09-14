@@ -25,6 +25,7 @@
     "build": "vite build",
     "build:watch": "vite build --watch",
     "preview": "vite preview",
+    "release": "pnpm run build && changeset publish",
     "test:unit": "vitest",
     "test:e2e": "playwright test",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
