@@ -2,7 +2,7 @@
   "name": "fue-ui",
   "description": "A Vue.js 3 UI Library Starter Kit",
   "author": "ferjal0",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "repository": "https://github.com/ferjal0/fue-ui.git",
   "exports": {
