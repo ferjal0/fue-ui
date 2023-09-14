@@ -1,5 +1,11 @@
 # @ferjalo/fue-ui
 
+## 0.0.6
+
+### Patch Changes
+
+- 294ab8d: Can we start for once?
+
 ## 0.0.5
 
 ### Patch Changes
