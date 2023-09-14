@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "useDefineForClassFields": true
+  },
+  "include": ["src"],
+  // exclude folders __tests__ inside src
+  "exclude": ["src/**/__tests__"],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
+}
