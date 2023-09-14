@@ -5,6 +5,9 @@
   "version": "0.0.5",
   "private": false,
   "repository": "https://github.com/ferjal0/fue-ui.git",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
