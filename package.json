@@ -5,9 +5,6 @@
   "version": "0.0.3",
   "private": false,
   "repository": "https://github.com/ferjal0/fue-ui.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
