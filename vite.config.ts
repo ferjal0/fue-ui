@@ -13,7 +13,7 @@ export default defineConfig({
     target: 'esnext',
     lib: {
       entry: resolve(__dirname, './src/main.ts'),
-      name: 'KaiserUI',
+      name: 'FueUI',
       formats: ['es'],
       fileName: (format) => `fue-ui.${format}.js`
     },

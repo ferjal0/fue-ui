@@ -19,7 +19,6 @@
     "useDefineForClassFields": true
   },
   "include": ["src"],
-  // exclude folders __tests__ inside src
   "exclude": ["src/**/__tests__"],
   "references": [
     {
